@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: hsl(234, 29%, 20%);
+
+}
+
+.container { 
+  display: flex;
+  align-items: center;
+  height: 100vh; /* Ensure the container is centered vertically */
+  margin: 0;
+  justify-content: center;
+}
+
+
+.content {
+  background-color: hsl(0, 0%, 100%);
+  width: 500px;
+  height: 500px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  /* text-align: center; */
+  padding: 35px;
+  margin-left: 20px;
+}
+
+
+
+h1 {
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 15px;
+  padding-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+
+}
+
+/* Styles for the error message */
+/* .errorMessage { */
+  /* color: red; Set the text color to red */
+  /* font-size: 12px; Adjust the font size */
+/* } */
+
+/* Styles for the input element */
+input[type="email"] {
+  width: 90%; /* Make the input element span the entire width */
+  padding: 8px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Round the corners */
+}
+
+.success-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; Center vertically on the viewport */
+  /* background-color: hsl(235, 18%, 26%); */
+}
+
+.container1 {
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  height: 350px;
+  border: 1px solid #ccc;
+  padding: 35px;
+  border-radius: 10px;
+  display: none;
+  margin-top: 150px;
+}
+
+button {
+  width: 90%; /* Make the input element span the entire width */
+  padding: 8px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Round the corners */
+  background-color: hsl(234, 29%, 20%);
+  margin-top: 15px;
+  color: white;
+  font-size: larger;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
